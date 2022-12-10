@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+}
+
+body {
+    height: 800px;
+}
+
+.main {
+    width: 880px;
+    height: 496px; 
+    margin: auto;
+    margin-top: 20px;
+}
+.header{
+    height: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: #FF4B2B; */
+}
+.applicationhead{
+    width: 880px;
+    height: 20px;
+    display: inline-block;
+    overflow: hidden;
+    text-align:right;
+    /* white-space: nowrap; */
+    display: block;
+}
+span{
+    color: rgb(235, 72, 105);
+    font-weight: bold;
+}
+marquee{
+    width: 880px;
+}
+p{
+    padding: 16px 0px;
+    font-weight: bold;
+}
+ol{   
+    padding-left:50px;   
+}
+.instruction{
+    width: 880px;
+    /* padding-left: 40px; */
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color:rgb(235, 72, 105) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+button a{
+    height: 14px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(235, 72, 105) ;
+}
